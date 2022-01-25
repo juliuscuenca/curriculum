@@ -1,0 +1,26 @@
+figure{max-height:150px;}
+figure img{
+    height:10%;
+    width: 10%;
+}
+#texto{
+    display:inline-block;
+    vertical-align: top;
+}
+body{
+    background-color: whitesmoke;
+}
+#menu{
+    background-color:mediumturquoise;
+}
+#personal, #academico, #laboral, #interes{
+    background-color: sandybrown;
+}
+.log{
+    width:30px;
+    height: 30px;
+}
+#enlaces{
+    float: right;
+    
+}

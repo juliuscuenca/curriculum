@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Curriculum vitae</h1>
+        <!-- Menu navegacion -->
+        <nav id="menu" class="navbar navbar-light bg-light">
+            <form class="form-inline">
+                <button class="btn btn-outline-success" type="button">
+                    <a class="nav-link" href="#personal">Datos personales</a></button>
+                <button class="btn btn-outline-success" type="button">
+                    <a class="nav-link" href="#academico">Datos academicos</a></button>
+                <button class="btn btn-outline-success" type="button">
+                    <a class="nav-link" href="#laboral">Experiencia laboral</a></button>
+                <button class="btn btn-outline-success" type="button">
+                    <a class="nav-link" href="#interes">Otros datos de interes</a></button>
+
+            </form>
+        </nav>
+
+        <div id="personal">
+            <!-- Datos personales -->
+            <h2>Datos personales</h2>
+            <figure>
+                <img src="foto.jpg" alt="Foto">
+            </figure>
+            <p id="texto">Nombre: Julio Escribano López</p>
+            <p>Dirección: 16004 Cuenca</p>
+            <p>Teléfono: 636 399 169</p>
+            <p>Correo electónico: julioesclop@gmail.com</p>
+        </div>
+        <div id="academico">
+            <!-- Datos academicos -->
+            <h2>Datos académicos</h2>
+            <p>FPII especialidad informática</p>
+            <p>Curso de administración de personal</p>
+            <p>Curso de programacion de aplicaciones de gestión</p>
+            <p>Curso de HTML 4.0</p>
+        </div>
+        <div id="laboral">
+            <!-- Experiencia laboral -->
+            <h2>Experiencia laboral</h2>
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <th>Cargo</th>
+                        <th>Empresa</th>
+                        <th>Tareas</th>
+                        <th>Fecha</th>
+                    </tr>
+                    <tr>
+                        <td>Informatico</td>
+                        <td>Informática Azul, C.B.</td>
+                        <td>Montar, reparar y vender material informático. Clases de informática.</td>
+                        <td>1995-2000</td>
+                    </tr>
+                    <tr>
+                        <td>Administrativo</td>
+                        <td>ITT</td>
+                        <td>Gestionar el trabajo de los empleados y facturación.</td>
+                        <td>2000-2001</td>
+                    </tr>
+                    <tr>
+                        <td>Operador de CRA</td>
+                        <td>Seguridad Huécar, S.L.</td>
+                        <td>Gestionar alarmas y creacción de varias bases de datos.</td>
+                        <td>2002-2016</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <div id="interes">
+            <!-- Otros datos de interés -->
+            <h2>Otros datos de interes</h2>
+            <p>Carnet de conducir tipo B</p>
+
+        </div>
+    </div>
+    <footer>
+        <figure id="enlaces">
+           <a href="https://codepen.io"><img class="log" src="codepen.png" alt="codepen"></a>
+           <a href="https://es.linkedin.com"><img class="log" src="linked.png" alt="linked-in"></a>
+           <a href="https://github.com"><img class="log" src="GITHUB.png" alt="git hub"></a>
+        </figure>
+    </footer>
+
+    <script src="bootstrap.js"></script>
+</body>
+
+</html>
